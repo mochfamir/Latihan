@@ -23,62 +23,62 @@ var j = 100;// pecahan seratus
 var ju = 0;
 
 console.log("Uang yang akan dipecah Rp." + u);
-if (u>=a || u<=a) {
+if (u !== 0) {
   while (u>=a){
     au++;
     u = u - a;
   }
   console.log("pecahan Rp. 100.000 ada : " + au);
-  if (u>=b || u<=b) {
+  if (u !== 0) {
     while (u>=b) {
     bu++;
     u = u - b;
   }
     console.log("pecahan Rp. 50.000 ada : " + bu);
-    if (u>=c || u<=c) {
+    if (u !== 0) {
       while (u>=c) {
       cu++;
       u = u - c;
       }
       console.log("pecahan Rp. 20.000 ada : " + cu);
-      if (u>=d || u<=d) {
+      if (u !== 0) {
         while (u>=d) {
         du++;
         u = u - d;
         }
         console.log("pecahan Rp. 10.000 ada : " + du);
         }
-        if (u>=e || u<=e) {
+        if (u !== 0) {
           while (u>=e) {
           eu++;
           u = u - e;
           }
           console.log("pecahan Rp. 5.000 ada : " + eu);
-          if (u>=f || u<=f) {
+          if (u !== 0) {
             while (u>=f) {
             fu++;
             u = u - f;
             }
             console.log("pecahan Rp. 2.000 ada : " + fu);
-            if (u>=g || u<=g) {
+            if (u !== 0) {
               while (u>=g) {
               gu++;
               u = u - g;
               }
               console.log("pecahan Rp. 1.000 ada : " + gu);
-              if (u>=h || u<=h) {
+              if (u !== 0) {
                 while (u>=h) {
                 hu++;
                 u = u - h;
                 }
                 console.log("pecahan Rp. 500 ada : " + hu);
-                if (u>=i || u<=i) {
+                if (u !== 0) {
                   while (u>=i) {
                   iu++;
                   u = u - i;
                   }
                   console.log("pecahan Rp. 200 ada : " + iu);
-                  if (u>=j || u<=j) {
+                  if (u !== 0) {
                     while (u>=j) {
                     ju++;
                     u = u - j;
@@ -94,5 +94,16 @@ if (u>=a || u<=a) {
     }
   }
 }
+//else 
+
+
+  
+
+/*while(u > a) {
+  au++
+  console.log(au);
+  console.log(u);
+  u = u-a;
+}*/
 
 
